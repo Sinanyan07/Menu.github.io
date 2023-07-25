@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 70px;
+}
+.menu{
+    width: 100%;
+    height: 70px;
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 200px;
+    height: 50px;
+    /* border: solid 1px; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.search{
+    width: 450px;
+    height: 50px;
+    /* border: solid 1px; */
+    display: flex;
+    align-items: center;
+}
+.butt-g{
+    width: 400px;
+    height: 50px;
+    /* border: solid 1px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img1{
+    width: 100%;
+}
+.inp1{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+.butt1{
+    width: 80px;
+    height: 40px;
+    /* border: solid 1px; */
+}
+.butt2{
+    width: 120px;
+    height: 40px;
+    /* border: solid 1px; */
+}
+.butt3{
+    width: 60px;
+    height: 40px;
+    /* border: solid 1px; */
+}
+.butt4{
+    width: 60px;
+    height: 40px;
+    /* border: solid 1px; */
+}
+.but1{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.but2{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.but3{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.but4{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mec{
+    background-image: url(menu.jpg);
+    width: 100%;
+    height: 212px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    border: solid 1px;
+    width: 100%;
+    height: 3070px;
+    background-color: rgb(244, 240, 240);
+    display: flex;
+    justify-content: space-around;
+
+}
+.dzax{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 20px;
+}
+.cank1 {
+    border: solid 1px;
+    width: 100%;
+    height: 135px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: white;
+    justify-content: center;
+}
+
+.cank2 {
+    border: solid 1px;
+    width: 100%;
+    height: 1047px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.toxer22{
+    /* border: solid 1px; */
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+.toxer22 input{
+    width: 44px;
+    height: 19px;
+}
+.h3{
+    position: relative;
+    top: -7px;
+    left: 15px;
+}
+
+.cank1 div:hover{
+    cursor: pointer;
+    background-color: rgb(234 229 223);
+}
+.cank2 div:hover{
+    cursor: pointer;
+    background-color: rgb(234 229 223);
+}
+.toxer4{
+    /* border: solid 1px; */
+    width: 95%;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    
+}
+.h6{
+    color: red;
+}
+.h7{
+    color: green;
+}
+.icona6{
+    width: 25px;
+    height: 19px;
+    color: red;
+}
+.icona7{
+    width: 25px;
+    height: 19px;
+}
+.icona8{
+    width: 25px;
+    height: 19px;
+}
+.icona9{
+    width: 25px;
+    height: 19px;
+}
+.aj{
+    border: solid 1px ;
+    width: 70%;
+    height: 99%;
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.verev {
+    border: solid 1px;
+    width: 70%;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.inp2 {
+    /* border: solid 1px; */
+    width: 83%;
+    height: 100%;
+    /* z-index: 1; */
+}
+.input1{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.icona3{
+
+    font-size: 20px;
+    width: 22px;
+    
+}
+.icona3:hover{
+    cursor: text;
+}
+.but5 {
+    /* border: solid 1px; */
+    width: 14%;
+    height: 100%;
+    
+}
+.button1{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #c5022e;
+    color: white;
+
+}
+.button1:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.menyu {
+    /* border: solid 1px; */
+    width: 100%;
+    height: 2776px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    
+}
+
+.divm1 {
+
+    border: solid 1px white;
+    width: 49%;
+    height: 290px;
+    border-radius: 10px;
+    background-color: white;
+}
+.taki{
+    /* border: solid 1px; */
+    width: 73%;
+    height: 40px;
+    position: relative;
+    top: 1628px;
+    left: 391px;
+    border-radius: 9px;
+}
+.buttt3{
+    width: 100%;
+    height: 100%;
+    background-color: #c5022e;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+}
+.butt3:hover{
+    cursor: pointer;
+}
+
+.mnkar{
+    /* border: solid 1px; */
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.mnkar:hover{
+    cursor: pointer;
+}
+.nkarner{
+    width: 100%;
+    height: 100%;
+}
+.dii1{
+    /* border: solid 1px; */
+    width: 92%;
+    height: 30px;
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: 22px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.dii2{
+    /* border: solid 1px; */
+    width: 89%;
+    height: 30px;
+    display: flex;
+    position: relative;
+    top: 14px;
+    left: 38px;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttt1{
+    color: white;
+    background-color: #c5022e;
+    border-radius: 10px;
+    width: 44px;
+    height: 22px;
+}
+.h3:hover{
+    cursor: pointer;
+}
+.buttt1:hover{
+    cursor: pointer;
+}
